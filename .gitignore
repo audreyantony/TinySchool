@@ -1,0 +1,32 @@
+# Ignore Composer's vendor directory
+/vendor/
+
+# Ignore environment files
+.env
+.env.dev
+.env.*.dev
+.env.local
+.env.*.local
+
+# Ignore Symfony var directory (cache, logs, sessions...)
+/var/
+
+# Ignore Symfony build artifacts
+/public/build/
+
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Ignore node_modules if you install JS dependencies
+/node_modules/
+
+# Ignore test artifacts
+/.phpunit.result.cache
+
+# Ignore composer.lock (optional, if you want to control dependency versioning)
+/composer.lock
+
+# Ignore local Docker files (if applicable)
+.docker/
+docker-compose.override.yml
